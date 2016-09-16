@@ -5,7 +5,7 @@
 }
 .maindiv {
     width: 816px; /* 8.5 x 11 */
-    height: 1056px;
+    height: 1150px; /* 1056? */
     background-color: #ffffff;
 }
 
@@ -23,12 +23,12 @@
 
 .personal_photo {
     width: 90%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .mycon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     fill: red;
 }
 
