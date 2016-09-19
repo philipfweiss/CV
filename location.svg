@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-<g><path d="M500,990c0,0-367.5-409.5-367.5-612.5C132.5,174.5,297,10,500,10c203,0,367.5,164.5,367.5,367.5C867.5,580.5,500,990,500,990L500,990z M500,57.1c-176.9,0-320.4,145.5-320.4,325.1S500,924,500,924s320.4-362.3,320.4-541.8C820.4,202.7,676.9,57.1,500,57.1L500,57.1z M500,500c-84.6,0-153.1-68.6-153.1-153.1c0-84.6,68.6-153.1,153.1-153.1c84.6,0,153.1,68.6,153.1,153.1C653.1,431.4,584.6,500,500,500L500,500z M500,236.2c-62.4,0-113.1,50.6-113.1,113.1c0,62.4,50.6,113.1,113.1,113.1c62.5,0,113.1-50.6,113.1-113.1C613.1,286.8,562.5,236.2,500,236.2L500,236.2z" style="fill: #017197"/></g>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<path d="M433.076,78.923c-30.565-30.565-80.122-30.565-110.688,0c-24.35,24.351-29.279,60.746-14.83,89.999L160.491,315.99
+	l0.12,0.119L56,456l139.89-104.611l0.12,0.12L343.077,204.44c29.252,14.448,65.647,9.52,89.999-14.831
+	C463.642,159.044,463.642,109.488,433.076,78.923z M367.407,109.073c-9.124-9.124-9.124-23.917,0-33.041
+	c9.125-9.124,23.917-9.124,33.041,0s9.124,23.917,0,33.041S376.532,118.197,367.407,109.073z" style="fill: #017197"/>
 </svg>

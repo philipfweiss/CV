@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="resume.css" media="all" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -18,15 +19,90 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <style type="text/css">
+        .padded {
+            text-align: center;
+        }
+        .maindiv {
+            width: 1100px; /* 8.5 x 11 */
+            height: 1600px; /* 1056? */
+            background-color: #ffffff;
+            border-right: 20px solid grey;
+            border-left: 20px solid grey;
+        }
+
+
+
+        @font-face {
+            font-family: "My Custom Font";
+            src: url(http://fonts.googleapis.com/css?family=Droid+Sans) format("truetype");
+        }
+        * {
+            font-family: "My Custom Font", Verdana, Tahoma;
+        }
+
+
+        /** { font-family: 'Droid Sans', Verdana, Tahoma; !important }*/
+
+
+        .divgrey {
+            background-color: #e8e8e8;
+            height: 100%;
+            padding-right: 10px !important;
+        }
+
+        .title_padded {
+            text-align: left;
+            color: #017197;
+            padding: 35px;
+        }
+
+        .personal_photo {
+            width: 90%;
+            margin-top: 20px;
+        }
+
+        .mycon {
+            width: 25px;
+            height: 25px;
+            fill: red;
+        }
+
+        .mycon2 {
+            width: 45px;
+            height: 45px;
+            fill: red;
+        }
+
+        .icon_div {
+            padding: 3px;
+            margin-left: 8px;
+            text-align: left;
+            font-size: 20px;
+        }
+
+        .left_icon_div {
+            padding: 3px;
+            text-align: left;
+            font-size: 35px;
+        }
+
+        li {
+            font-size: 18px;
+        }
+
+
+    </style>
+
 </head>
 <body>
-    <div class="padded customfont">
-        <div class="maindiv flex">
-            <div class="col-md-7">
+    <div class="padded">
+        <div class="maindiv flex" style="overflow: hidden">
+            <div style="width: 600px;float: left; padding-right: 20px;">
                 <div>
                     <div class="title_padded">
-                        <div style="font-size: 40px; text-align: center; margin-top: -15px;"><b>Philip Weiss </b></div>
-                        <div style="font-size: 20px; margin-left: 5px; text-align: center;"> <b>Software Engineer</b> </div>
+                        <div style="font-size: 60px; text-align: center; margin-top: -15px;"><b>Philip Weiss </b></div>
+                        <div style="font-size: 30px; margin-left: 5px; text-align: center;"> <b>Software Engineer</b> </div>
                         <hr>
                     </div>
                 </div>
@@ -34,17 +110,17 @@
                 <div>
                     <h3 style="text-align: left; color: #017197; margin-left: 30px; margin-top: -45px;">
                         <span class="left_icon_div">
-                            <img src="education.svg" class="mycon2" style="font-size: 45px;"> Education
+                            <img src="education.svg" class="mycon2" style="font-size: 65px;"> <b>Education</b>
                         </span>
                     </h3>
                     <div style="text-align: left; margin-left: 50px; margin-top: -10px;">
-                        <span style="font-size: 19px; "> <b>Stanford University</b> <span style="color: #b3b3b3;"> (2015-2019)</span> </span>
+                        <span style="font-size: 28px; "> <b>Stanford University</b> <span style="font-size: 20px; color: #b3b3b3;"> (2015-2019)</span> </span>
                         <ul>
                            <li>Major: Computer Science</li>
                             <li>Minor: Chinese Language</li>
                             <li>GPA: 3.88 </li>
                         </ul>
-                        <span style="font-size: 19px;"> <b>Lincoln High School</b> <span style="color: #b3b3b3;"> (2011-2015)</span> </span>
+                        <span style="font-size: 28px;"> <b>Lincoln High School</b> <span style=" font-size: 20px; color: #b3b3b3;"> (2011-2015)</span> </span>
                         <ul>
                             <li>Valedictorian</li>
                             <li>Class Rank: 1/353</li>
@@ -56,56 +132,56 @@
 
 
                 <div>
-                        <h3 style="text-align: left; color: #017197; margin-left: 30px;">
+                        <h3 style="text-align: left; color: #017197; margin-left: 30px; margin-top: -20px;">
                         <span class="left_icon_div">
-                            <img src="experience.svg" class="mycon2" style="font-size: 25px;"> Experience
+                            <img src="experience.svg" class="mycon2" style="font-size: 65px; margin-top: 0px; height: 85px !important"> <b>Experience</b>
                         </span>
                             <br>
                         </h3>
                     <div style="text-align: left; margin-left: 50px;">
-                        <div style="font-size: 15px; margin-top: 10px;"> <b>Undergraduate Researcher </b> <span style="color: #b3b3b3;"> (June-Sep 2016)</span>
-                            <span style="color: #9b9b9b;"><b>Stanford HCI Group</b> </span>
+                        <div style="font-size: 24px; margin-top: -15px;"> <b>Undergraduate Researcher </b> <span style=" font-size: 17px; color: #b3b3b3;"> (June-Sep 2016)</span>
+                            <div style="color: #9b9b9b; font-size: 20px;"><b>Stanford HCI Group</b> </div>
 
                             <ul>
-                                <li style="font-size: 11px; margin-top: 7px;">
-                                    Recieved a grant from Stanford to work with Professor Michael Bernstein and several PhD students on a web application to facilitate future experiments with crowdwork.
+                                <li style="font-size: 19px; margin-top: 7px;">
+                                    Received a grant from Stanford to work with Professor Michael Bernstein and several PhD students on a web application to facilitate future experiments with crowdwork.
 
                                 </li>
-                                <li style="font-size: 11px; margin-top: 7px;">
+                                <li style="font-size: 19px; margin-top: 7px;">
                                     Designed and implemented website UI.
                                 </li>
-                                <li style="font-size: 11px; margin-top: 7px;">
+                                <li style="font-size: 19px; margin-top: 7px;">
                                     Designed and implemented a PostgreSQL database.
                                 </li>
-                                <li style="font-size: 11px; margin-top: 7px;">
+                                <li style="font-size: 19px; margin-top: 7px;">
                                     Managed security of application, including setting up SSL certification.
                                 </li>
-                                <li style="font-size: 11px; margin-top: 7px;">
+                                <li style="font-size: 19px; margin-top: 7px;">
                                     Interacted with and extended the functionality of third party API's (Google, Slack) to automate the workflow of crowdworkers.
                                 </li>
                             </ul>
                         </div>
-                        <div style="font-size: 15px;"> <b>Software Engineering Intern</b> <span style="color: #b3b3b3;"> (June-Sep 2015)</span>
-                            <span style="color: #9b9b9b;"><b>New Relic</b> </span>
+                        <div style="font-size: 22px;"> <b>Software Engineering Intern</b> <span style="font-size: 15px; color: #b3b3b3;"> (June-Sep 2015)</span>
+                            <div style="font-size: 20px; color: #9b9b9b;"><b>New Relic</b> </div>
                             <br>
                             <ul>
-                                <li style="font-size: 11px; margin-top: 7px;">
+                                <li style="font-size: 19px; margin-top: -20px;">
                                     First high school intern ever hired by New Relic. Developed and open sourced internal tools (Such as Pivotal2Quip on my Github Page) that saved time for software engineers around the company.
                                 </li>
-                                <li style="font-size: 11px; margin-top: 7px;">
+                                <li style="font-size: 19px; margin-top: 7px;">
                                     Developed proficiency with Ruby, Javascript, Git, HTML, CSS, and various Javascript frameworks such as D3.js and AngularJS while working on the New Relic Insights product.
 
                                 </li>
-                                <li style="font-size: 11px; margin-top: 7px;">
+                                <li style="font-size: 19px; margin-top: 7px;">
                                     Worked on the beginning stages of a large new user analytics product that New Relic has not yet released.
 
                             </ul>
                         </div>
-                        <div style="font-size: 15px;"> <b>Web Developer</b> <span style="color: #b3b3b3;"> (June 2013 - October 2014)</span>
-                            <span style="color: #9b9b9b;"><b>Portland Chess Shop</b> </span>
+                        <div style="font-size: 24px;"> <b>Web Developer</b> <span style="font-size: 17px; color: #b3b3b3;"> (June 2013 - October 2014)</span>
+                            <div style="color: #9b9b9b; font-size: 20px;"><b>Portland Chess Shop</b> </div>
 
                             <ul>
-                                <li style="font-size: 11px; margin-top: 7px;">
+                                <li style="font-size: 19px; margin-top: 7px;">
                                     Wrote automation and web crawling software for Portland Chess Shop, an online retailer based in Portland, in order to facilitate product sales and to help find suitable products to resell. Most work was done with Python and Javascript.
 
                                 </li>
@@ -120,32 +196,33 @@
             </div>
 
 
-            <div class="col-md-5 divgrey">
+            <span class="divgrey" style="width: 410px; margin-right: 30px; float: right;">
                 <div>
                     <br>
                     <br>
-                    <h3 style="text-align: left; color: #017197; margin-top: 5px;">Contact Information </h3>
 
-                    <div class="icon_div">
+                    <h3 style="text-align: left; color: #017197; margin-top: 20px; margin-left: 15px; font-size: 30px;"> <b>Contact Information </b> </h3>
+
+                    <div class="icon_div" style="margin-left: 25px;">
                         <img src="email.svg" class="mycon"> weissp68@stanford.edu
                     </div>
-                    <div class="icon_div">
+                    <div class="icon_div" style="margin-left: 25px;">
                         <img src="github.svg" class="mycon"> github.com/philipfweiss
                     </div>
-                    <div class="icon_div">
+                    <div class="icon_div" style="margin-left: 25px;">
                         <img src="personal.svg" class="mycon"> weissguy.io
                     </div>
-                    <div class="icon_div">
+                    <div class="icon_div" style="margin-left: 25px;">
                          <img src="phone.svg" class="mycon"> (503)-887-5953
                     </div>
-                    <div class="icon_div">
+                    <div class="icon_div" style="margin-left: 25px;">
                         <img src="location.svg" class="mycon"> Stanford, CA || Portland, OR
                     </div>
 
-                    <h3 style="text-align: left; color: #017197; margin-top: 7px;"> Skills </h3>
-                    <div class="icon_div container">
-                        <div class="col-md-2" style="margin-left: -20px;">
-                            <span><b>Proficieny In:</b> </span>
+                    <h3 style="text-align: left; margin-left: 15px; color: #017197; margin-top: 20px; font-size: 30px;"> <b>Skills</b> </h3>
+                    <div class="icon_div flex" style="margin-top: -5px; ">
+                        <div style="float: left; margin-right: 30px; margin-left: 25px;">
+                            <div style="font-size: 20px;"><b>Proficiency In:</b> </div>
                             <ul>
                                 <li style="margin-left: -15px;">Ruby/Rails </li>
                                 <li style="margin-left: -15px;">Javascript </li>
@@ -157,9 +234,9 @@
                             </ul>
 
                         </div>
-                        <div class="col-md-2" style="margin-left: -20px;">
-                            <span><b>Experience In: </b> </span>
-                            <ul style="font-size: 10px;">
+                        <div style="margin-right: auto;">
+                            <div style="font-size: 20px;"><b>Experience In: </b> </div>
+                            <ul style="float: left;">
                                 <li style="margin-left: -10px;">Python
                                 <li style="margin-left: -10px;">MEAN Stack
                                     <ul>
@@ -170,24 +247,27 @@
                                     </ul>
                                 <li style="margin-left: -10px;">AWS/Heroku
                                 <li style="margin-left: -10px;">New Relic
+                                <li style="margin-left: -10px;">PostgreSQL
+
 
                             </ul>
 
                         </div>
+                    </div>
+                    <div>
+                        <h3 style="text-align: left; float: left; color: #017197; margin-left: 15px; margin-top: 15px; width: 300px; font-size: 30px;"> <b>Personal Projects</b> </h3>
 
                     </div>
-                    <h3 style="text-align: left; color: #017197; margin-top: -15px;"> Personal Projects </h3>
-                   <div>
-                       <div style="text-align: left; margin-left: 10px; font-size: 15px;"><b>Taktics.net</b></div>
+                        <div style="text-align: left; margin-left: 30px;font-size: 20px;"><b>Taktics.net</b></div>
                        <ul>
-                           <li style="text-align: left; font-size: 9px;">
+                           <li style="text-align: left; margin-left: 20px; font-size: 18px;">
                                Tactics website for the strategy game Tak. I am the lead developer on the project, which is a collaboration between four software developers around the country.
                            </li>
 
                        </ul>
-                       <div style="text-align: left; margin-left: 10px; font-size: 15px;"><b>Shepherd Guides</b></div>
+                       <div style="text-align: left; margin-left: 30px; font-size: 20px;"><b>Shepherd Guides</b></div>
                        <ul>
-                           <li style="text-align: left; font-size: 9px;">
+                           <li style="text-align: left; margin-left: 20px; font-size: 18px;">
                                Web application that allows users to create markdown formatted guides/documentation with
                                "advice nodes". At these advice nodes, people reading the guide can receive/give help to others going through the guide.
                                Great for documentation, assignments, and more.
@@ -197,29 +277,29 @@
 
                    </div>
                     <br>
-                    <h3 style="text-align: left; color: #017197; margin-top: -15px;"> Personal Interests </h3>
+                    <h3 style="text-align: left; color: #017197; margin-left: 15px;margin-top: -15px; font-size: 30px;"> <b>Personal Interests</b> </h3>
                     <div>
-                        <div style="text-align: left; margin-left: 10px; font-size: 15px;"><b>Chess</b></div>
+                        <div style="text-align: left; margin-left: 30px; font-size: 20px;"><b>Chess</b></div>
                         <ul>
-                            <li style="text-align: left; font-size: 9px;">
+                            <li style="text-align: left; margin-left: 20px; font-size: 18px;">
                                 I am a competitive Chess Player. I love blitz chess, playing in parks, and meeting new people over the board.
                         </li>
 
                         </ul>
-                        <div style="text-align: left; margin-left: 10px; font-size: 15px;"><b>Hiking/Outdoors</b></div>
+                        <div style="text-align: left; margin-left: 30px; font-size: 20px;"><b>Hiking/Outdoors</b></div>
                         <ul>
-                            <li style="text-align: left; font-size: 9px;">
+                            <li style="text-align: left; margin-left: 20px; font-size: 18px;">
                                 I have hiked all around the Pacific Northwest. I would like to one day hike the Pacific Crest Trail.
                             </li>
-                            <li style="text-align: left; font-size: 9px;">
+                            <li style="text-align: left; margin-left: 20px; font-size: 17px;">
                                 Eagle Scout.
                             </li>
 
                         </ul>
-                        <div style="text-align: left; margin-left: 10px; font-size: 15px;"><b>Mandarin Chinese</b></div>
+                        <div style="text-align: left; margin-left: 30px; font-size: 20px;"><b>Mandarin Chinese</b></div>
                         <ul>
-                            <li style="text-align: left; font-size: 9px;">
-                                I am currently completing third year modern Chinese at Stanford. I love Chinese culture, history, film, literature, and theatre.
+                            <li style="text-align: left; margin-left: 20px; font-size: 18px;">
+                                I am currently completing fourth year modern Chinese at Stanford. I love Chinese culture, history, film, literature, and theatre.
                             </li>
 
                         </ul>
@@ -228,9 +308,11 @@
 
 
                 </div>
-            </div>
+            </span>
         </div>
     </div>
 
 </body>
+
+
 </html>

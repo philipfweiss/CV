@@ -1,62 +1,62 @@
 
-.padded {
-   text-align: center;
-    border: 70px solid #515151;
-}
-.maindiv {
-    width: 816px; /* 8.5 x 11 */
-    height: 1150px; /* 1056? */
-    background-color: #ffffff;
-}
+/*.padded {*/
+   /*text-align: center;*/
+    /*border: 70px solid #515151;*/
+/*}*/
+/*.maindiv {*/
+    /*width: 889px; /!* 8.5 x 11 *!/*/
+    /*height: 1150px; /!* 1056? *!/*/
+    /*background-color: #ffffff;*/
+/*}*/
 
-.divgrey {
-    background-color: #e8e8e8;
-    height: 100%;
-    padding-right: 20px !important;
-}
+/*.divgrey {*/
+    /*background-color: #e8e8e8;*/
+    /*height: 100%;*/
+    /*padding-right: 20px !important;*/
+/*}*/
 
-.title_padded {
-    text-align: left;
-    color: #017197;
-    padding: 35px;
-}
+/*.title_padded {*/
+    /*text-align: left;*/
+    /*color: #017197;*/
+    /*padding: 35px;*/
+/*}*/
 
-.personal_photo {
-    width: 90%;
-    margin-top: 20px;
-}
+/*.personal_photo {*/
+    /*width: 90%;*/
+    /*margin-top: 20px;*/
+/*}*/
 
-.mycon {
-    width: 25px;
-    height: 25px;
-    fill: red;
-}
+/*.mycon {*/
+    /*width: 25px;*/
+    /*height: 25px;*/
+    /*fill: red;*/
+/*}*/
 
-.mycon2 {
-    width: 45px;
-    height: 45px;
-    fill: red;
-}
+/*.mycon2 {*/
+    /*width: 45px;*/
+    /*height: 45px;*/
+    /*fill: red;*/
+/*}*/
 
-.icon_div {
-    padding: 3px;
-    margin-left: 8px;
-    text-align: left;
-    font-size: 15px;
-}
+/*.icon_div {*/
+    /*padding: 3px;*/
+    /*margin-left: 8px;*/
+    /*text-align: left;*/
+    /*font-size: 15px;*/
+/*}*/
 
-.left_icon_div {
-    padding: 3px;
-    text-align: left;
-    font-size: 25px;
-}
+/*.left_icon_div {*/
+    /*padding: 3px;*/
+    /*text-align: left;*/
+    /*font-size: 25px;*/
+/*}*/
 
 
 
-@font-face {
-    font-family: "My Custom Font";
-    src: url(http://fonts.googleapis.com/css?family=Droid+Sans) format("truetype");
-}
-.customfont {
-    font-family: "My Custom Font", Verdana, Tahoma;
-}
+/*@font-face {*/
+    /*font-family: "My Custom Font";*/
+    /*src: url(http://fonts.googleapis.com/css?family=Droid+Sans) format("truetype");*/
+/*}*/
+/*.customfont {*/
+    /*font-family: "My Custom Font", Verdana, Tahoma;*/
+/*}*/
